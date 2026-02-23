@@ -8,14 +8,14 @@ from fastapi import HTTPException, Form
 
 app = FastAPI(title="Face Recognition API")
 
-# Permitir acesso do frontend
+# Permitir acesso do frontendjkdfvbb nbieafcaqb
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000"],  # ou substitua por ['http://localhost:3000'] se for usar com Next.js
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-)
+)shdvbcfckweuigfq bfcba\eafbqcileqfb
 
 # Carregar rostos conhecidos
 load_known_faces()
